@@ -1,0 +1,192 @@
+/*Common Styles ---------->*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DejaVu Sans Mono", serif;
+}
+
+.profile {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../img/bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*Header Styles ---------->*/
+.profile nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8% 10px 8%;
+    word-break: break-word;
+}
+
+.profile nav .logo {
+    color: #ffff;
+    font-size: 35px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.profile nav .logo span{
+    color: #b2003b;
+}
+
+
+.profile nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.profile nav ul li a{
+    color: #fff;
+    transition: 0.4s;
+    transition-property: color;
+}
+
+.profile nav ul li a:hover{
+    color: #b2003b;
+}
+
+.profile nav ul li:last-child {
+    margin-right: 0;
+}
+
+.profile nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn_subscribe {
+    background-color:#b2003b;
+    border: 2px solid transparent;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px 15px;
+    font-weight: bold;
+}
+
+/*Content Styles ---------->*/
+.content {
+    margin-top: 120px;
+    padding: 20px 20% 20px 20%;
+}
+
+.content h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.content h2 {
+    color: #b2003b;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
+.content h3 {
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
+/* Email Form Here*/
+.content .contact-form {
+    margin-top: 35px;
+}
+
+.content .contact-form form #mail{
+    width: 250px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid #b2003b;
+    color: #444343;
+}
+
+
+.content .contact-form form #submit-btn{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    background:#b2003b;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/*About Section Styles*/
+.about {
+    margin-top: 35px;
+    padding: 20px 20% 90px 20%;
+}
+
+.about .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .main .about-text{
+    padding: 0 30px 0 30px;
+}
+
+.about .main .maine-img{
+    max-height: 300px;
+    width: 30%;
+}
+
+.about p {
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.about .main .about-text h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about .main .about-text h5 {
+    color: #b2003b;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
