@@ -173,14 +173,10 @@
 
 /*Services Section styles*/
 
-
-
-
 .service {
     margin-top: 35px;
     padding: 20px 20% 90px 20%;
 }
-
 
 .service .title h2 {
     color: #fff;
@@ -188,6 +184,8 @@
     font-weight: 800;
 }
 
+
+/****/
 
 
 
