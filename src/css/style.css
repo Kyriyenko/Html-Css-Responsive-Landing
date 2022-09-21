@@ -182,6 +182,48 @@
     color: #fff;
     font-size: 30px;
     font-weight: 800;
+    margin-bottom: 70px;
+}
+
+.service .box {
+    margin: 50px 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    word-break: break-word;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3{
+    color: #b2003b;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card a{
+    text-align: center;
+    margin-top: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    background:#b2003b;
+    border: none;
+    color: #fff;
+    cursor: pointer;
 }
 
 
