@@ -199,6 +199,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 35px;
 }
 
 .card h3{
@@ -227,9 +228,53 @@
 }
 
 
-/****/
+/** End of section **/
 
 
+/* Responsive styles */
+
+@media (max-width: 1230px) {
+    /* resize nav links text */
+    .profile nav ul a {
+        font-size: 14px;
+    }
+
+    /* resize logo */
+    .profile nav .logo {
+        font-size: 25px;
+    }
+
+    /* resize subscribe btn */
+    .btn_subscribe {
+        font-size: 13px;
+    }
+
+    /* resize about header */
+    .about .main .about-text h2 {
+        font-size: 30px;
+    }
+
+    /* resize about text */
+    .about p {
+        font-size: 13px;
+    }
+
+    /* resize cards text */
+    .card p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 996px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .about .main .maine-img {
+        width: 100%;
+    }
+}
 
 
 
